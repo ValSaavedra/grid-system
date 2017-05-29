@@ -14,7 +14,19 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 100vh;
+	height: 35vh;
+}
+
+h1{
+	text-align: center;
+	font-size: 70px;
+}
+h2{
+	text-align: center;
+}
+
+.imgmeow{
+url(http://lorempixel.com/1024/600/cats/);
 }
 
 .back .container{
