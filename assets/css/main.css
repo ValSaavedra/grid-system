@@ -1,5 +1,6 @@
 body{
 	font-family: 'Roboto', sans-serif;
+	background-color: #FFFB85;
 }
 .caja{
 	background-color: #9B0022;
@@ -9,8 +10,8 @@ header{
 	text-align: center;
 }
 
-.back{
-	background-image: url(http://lorempixel.com/1024/600/cats/);
+.back{ /*header */
+	background-image: url(http://lorempixel.com/1024/600/cats/3);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -20,23 +21,68 @@ header{
 h1{
 	text-align: center;
 	font-size: 70px;
+	color:#EFAD28;
+	padding-top: 42px;
 }
+
 h2{
+	text-align: center;
+	color: #EFAD28;
+	padding-top: 0px;
+}
+
+.container{
+	padding-top: 60px;
+}
+
+img { /*3 imagenes gatunas*/
+	max-width: 100%; /*ancho máx. del contenedor*/
+	height: auto;/*para que mantenga su dimensión sin deformarse*/
+	border-radius: 5px;
+}
+
+.container-text{
+	position: absolute;
+	color: #5A3662;
+	text-align: justify;
+	padding: 10%;
+	margin:10%;
+	}
+
+.imgnau{
+	background-color: #FFD464;
+	border-radius: 5px;
+}
+.imgmeow{
+	background-color: #FFD464;
+	border-radius: 5px;
+}
+
+.col-4 p {
+	padding: 20px;
+	text-align: center;
+	color: #41488D;
+}
+
+button{
+ 	display: block;
+ 	width: 110px;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+footer{
+	background-color: #41488D;
+	color: #FFD464;
 	text-align: center;
 }
 
-.imgmeow{
-url(http://lorempixel.com/1024/600/cats/);
+a{
+color:#EFAD28;
 }
 
-.back .container{
-	background-color: rgba(255,255,255, 0.5);
-	position: relative;
-	height: 100vh;
+p a:hover {
+color:#3285BB;
 }
 
-.texto{
-	position: absolute;
-	top: 40%;
-	left: 35%;
-}
+ 
